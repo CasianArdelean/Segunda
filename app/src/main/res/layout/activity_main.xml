@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/texto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Escribe aqui:"
+    android:layout_alignParentTop="true"/>
+    <EditText
+        android:id="@+id/escribir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/texto"
+        android:background="#bfbfbf"/>
+    <Button
+        android:id="@+id/boton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CANCELAR"
+        android:layout_below="@+id/escribir"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:layout_below="@+id/escribir"
+        android:layout_toRightOf="@+id/boton"/>
+</RelativeLayout>-->
+
+<!--<TableLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableRow>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3" /></TableRow>
+    <TableRow>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6" /></TableRow>
+    <TableRow>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9" /></TableRow>
+</TableLayout>-->
+
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"/>
+        </LinearLayout>
+    </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="190dp"
+       android:orientation="vertical"
+       android:weightSum="1">
+       <Button
+       android:layout_width="wrap_content"
+       android:layout_height="63dp"
+       android:text="+"/>
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="63dp"
+           android:text="="/>
+
+       <Button
+           android:id="@+id/button"
+           android:layout_width="wrap_content"
+           android:layout_height="63dp"
+           android:text="C" />
+   </LinearLayout>
+</LinearLayout>-->
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView android:id="@+id/uno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Texto1"
+        android:layout_alignParentTop="true"/>
+    <TextView android:id="@+id/dos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Texto2"
+        android:layout_below="@+id/uno"/>
+    <TextView android:id="@+id/tres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Texto3"
+        android:layout_below="@+id/dos"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Botón"
+        android:layout_below="@+id/tres"/>
+</RelativeLayout>-->
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Login"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/usu"
+        android:textSize="20dp"/>
+    <TextView android:id="@+id/usu"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Usuario"
+        android:layout_below="@+id/login"/>
+    <EditText android:id="@+id/usuT"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@+id/usu"/>
+
+    <TextView android:id="@+id/contr"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Contraseña"
+        android:layout_below="@+id/usu"/>
+    <EditText android:id="@+id/contrT"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@+id/contr"
+        android:layout_below="@+id/usuT"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Botón"
+        android:layout_below="@+id/contrT"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
